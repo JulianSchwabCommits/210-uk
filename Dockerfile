@@ -1,2 +1,2 @@
-FROM nginx:latest 
+FROM nginxinc/nginx-unprivileged:latest 
 COPY app /usr/share/nginx/html
